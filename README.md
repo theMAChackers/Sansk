@@ -1,9 +1,8 @@
 # [SansK](https://babeljs.io)
 
-This is the source for the [babeljs.io](https://babeljs.io) website; feel free to suggest changes to our docs!
+This is the source for the [SansK](https://babeljs.io) website; feel free to suggest changes to our docs!
 
 - Current: `master` branch is deployed to https://babeljs.io
-- Old: `old-site` branch is deployed to https://v6.babeljs.io
 
 ### Setup
 
@@ -12,12 +11,12 @@ Node: Check that Node is installed with version 10.19.0 and up. You can check th
 Yarn: Make sure that Yarn 1 is installed with version >= 1.19.0.
 
 ```bash
-$ git clone git@github.com:babel/website.git
-$ cd website
-$ yarn && yarn bootstrap
+$ git clone https://github.com/GEEKS042/Sansk.git
+$ cd Sansk
+$ npm install
 ```
 
-- Just run `yarn start` next time (check the package.json for scripts).
+- Just run `npm start` next time (check the package.json for scripts).
 
 ### Contributing to the website
 
