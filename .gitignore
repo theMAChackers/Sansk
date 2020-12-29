@@ -4,3 +4,4 @@ assets/img/.DS_Store
 assets/img/team/.DS_Store
 .DS_Store
 node_modules/
+package-lock.json
