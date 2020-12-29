@@ -36,8 +36,8 @@ app.get('/time',(req, res)=> {
     res.render('time.ejs');
 });
 
-app.get('/interme',(req, res)=> {
-    res.render('interme.ejs');
+app.get('/numberss',(req, res)=> {
+    res.render('numberss.ejs');
 });
 
 app.listen(3000);
