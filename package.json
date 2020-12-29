@@ -1,6 +1,6 @@
 {
-  "name": "express",
-  "version": "6.14.10",
+  "name": "sansk",
+  "version": "1.0.0",
   "description": "",
   "main": "main.js",
   "dependencies": {
