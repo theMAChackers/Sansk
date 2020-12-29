@@ -1,4 +1,4 @@
-# # [SansK](https://babeljs.io)
+# [SansK](https://babeljs.io)
 
 This is the source for the [babeljs.io](https://babeljs.io) website; feel free to suggest changes to our docs!
 
