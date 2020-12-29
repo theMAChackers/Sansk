@@ -40,4 +40,8 @@ app.get('/numberss',(req, res)=> {
     res.render('numberss.ejs');
 });
 
+app.get('/shabd',(req, res)=> {
+    res.render('shabd.ejs');
+});
+
 app.listen(3000);
