@@ -4,13 +4,13 @@ const app = express();
 app.use(express.static('public'));
 
 
-/* app.get('/', (req, res) => {
-  res.render('index.ejs');
-}); */
-
 app.get('/', (req, res) => {
-    res.render('parallax.ejs');
+  res.render('index.ejs');
 });
+
+/* app.get('/', (req, res) => {
+    res.render('parallax.ejs');
+}); */
 
 app.get('/inner-page',(req, res)=> {
     res.render('inner-page.ejs');
