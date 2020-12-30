@@ -48,4 +48,12 @@ app.get('/shabd',(req, res)=> {
     res.render('shabd.ejs');
 });
 
+app.get('/grammer',(req, res)=> {
+    res.render('grammer.ejs');
+});
+
+app.get('/purush',(req, res)=> {
+    res.render('purush.ejs');
+});
+
 app.listen(3000);
