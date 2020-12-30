@@ -56,4 +56,8 @@ app.get('/purush',(req, res)=> {
     res.render('purush.ejs');
 });
 
+app.get('/vachya',(req, res)=> {
+    res.render('vachya.ejs');
+});
+
 app.listen(3000);
