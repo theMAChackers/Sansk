@@ -59,10 +59,17 @@ app.get('/purush',(req, res)=> {
 app.get('/karak',(req, res)=> {
     res.render('karak.ejs');
 });
+
 app.get('/lakar',(req, res)=> {
     res.render('lakar.ejs');
 });
+
 app.get('/vyakran',(req, res)=> {
     res.render('vyakran.ejs');
 });
+
+app.get('/vachya',(req, res)=> {
+    res.render('vachya.ejs');
+});
+
 app.listen(3000);
