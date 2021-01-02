@@ -71,7 +71,9 @@ app.get('/vyakran',(req, res)=> {
 app.get('/vachya',(req, res)=> {
     res.render('vachya.ejs');
 });
+
 app.get('/participle',(req, res)=> {
     res.render('participle.ejs');
 });
+
 app.listen(3000);
