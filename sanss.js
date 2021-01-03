@@ -16,10 +16,6 @@ app.get('/inner-page',(req, res)=> {
     res.render('inner-page.ejs');
 });
 
-app.get('/advance',(req, res)=> {
-    res.render('advance.ejs');
-});
-
 app.get('/dayweek',(req, res)=> {
     res.render('dayweek.ejs');
 });
