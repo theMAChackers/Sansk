@@ -1,14 +1,15 @@
-# [SansK](https://babeljs.io)
+# [SansK](https://sans-geeks.herokuapp.com)
 
-This is the source for the [SansK](https://babeljs.io) website; feel free to suggest changes to our docs!
+This is the source for the [SansK](https://sans-geeks.herokuapp.com) website; feel free to suggest changes to our docs!
 
-- Current: `master` branch is deployed to https://babeljs.io
+- Current: `master` branch is deployed to https://sans-geeks.herokuapp.com
 
 ### Setup
 
-Node: Check that Node is installed with version 10.19.0 and up. You can check this with node -v.
+Node: Check that Node is installed with version 14.15.3 and up. You can check this with node -v.
 
-Yarn: Make sure that Yarn 1 is installed with version >= 1.19.0.
+Yarn: Make sure that express is installed with "ejs": "^3.1.5",
+                                               "express": "^4.17.1"
 
 ```bash
 $ git clone https://github.com/GEEKS042/Sansk.git
@@ -20,10 +21,12 @@ $ npm install
 
 ### Contributing to the website
 
-To keep documentation in sync across all of Babel's packages, the docs are now directly located in this repository. The READMEs in [`babel/babel`](https://github.com/babel/babel) are [auto generated](https://github.com/babel/babel/blob/master/scripts/generators/readmes.js) and point to this documentation.
+To keep documentation in sync across all of Sasnk packages, the docs are now directly located in this repository. The READMEs is [`GEEKS042
+/
+Sansk`](https://github.com/GEEKS042/Sansk).
 
-You might want to make yourself familiar with [docusaurus](https://docusaurus.io/docs/en/installation) to make significant changes to the website.
+You might want to make yourself familiar with [CONTRIBUTING.md](https://github.com/GEEKS042/Sansk/CONTRIBUTING.md) to make significant changes to the website.
 
 #### Looking for support?
 
-For questions and support on contributing please join our [Slack community](https://slack.babeljs.io/), channel `#website` or directly [here](https://babeljs.slack.com/messages/website).
+For questions and support on contributing please join our [Discord community](https://discord.gg/YXnUJAarNv), channel `#website`.
