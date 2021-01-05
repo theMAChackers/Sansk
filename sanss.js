@@ -72,4 +72,8 @@ app.get('/participle',(req, res)=> {
     res.render('participle.ejs');
 });
 
+app.get('/pvc',(req, res)=> {
+    res.render('pvc.ejs');
+});
+
 app.listen(3000);
