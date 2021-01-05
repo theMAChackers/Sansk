@@ -9,8 +9,8 @@
   },
   "devDependencies": {},
   "scripts": {
-    "start": "npm run open && node sanss.js",
-    "open" : "open http://localhost:3000"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node sanss.js"
   },
   "repository": {
     "type": "git",

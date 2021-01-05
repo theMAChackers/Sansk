@@ -1,5 +1,6 @@
 const express = require('express');
 const app = express();
+const port = process.env.PORT || 8000;
 
 app.use(express.static('public'));
 
@@ -76,4 +77,6 @@ app.get('/pvc',(req, res)=> {
     res.render('pvc.ejs');
 });
 
-app.listen(3000);
+app.listen(port, () => {
+    console.log('listening to the port no at 8000);
+})
